@@ -1,0 +1,174 @@
+body {
+    font-family: system-ui, -apple-system, sans-serif;
+    line-height: 1.6;
+    padding: 2rem;
+    max-width: 1000px;
+    margin: 0 auto;
+    color: #333;
+    background-color: #f9fafb;
+    background: url("resources/background.jpeg") no-repeat center center fixed;
+    background-size: cover;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+nav {
+    display: flex;
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+section {
+    margin: 4rem 0;
+}
+
+h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: #111;
+}
+
+h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    color: #111;
+}
+
+.intro {
+    font-size: 1.25rem;
+    color: #4b5563;
+    margin-bottom: 2rem;
+}
+
+.card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin: 2rem 0;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.card p {
+    margin: 0.5rem 0;
+    color: #374151;
+}
+
+
+
+img {
+    max-width: 40%;
+    border-radius: 40px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.summary {
+    color: #4b5563;
+    margin: 1rem 0 1.5rem;
+    padding-left: 1rem;
+    border-left: 2px solid #e5e7eb;
+    font-size: 0.95em;
+    line-height: 1.5;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 1.5rem;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.25rem;
+}
+
+.job-meta {
+    color: #4b5563;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+.card ul {
+    padding-left: 1.25rem;
+    margin: 1.5rem 0;
+}
+
+.card li {
+    margin-bottom: 0.75rem;
+    color: #374151;
+    padding-left: 0.5rem;
+}
+
+.card li::marker {
+    color: #9ca3af;
+    content: "• ";
+}
+
+.job-date {
+    color: #4b5563;
+    white-space: nowrap;
+    font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 1rem;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1.75rem;
+    }
+
+    .intro {
+        font-size: 1.1rem;
+    }
+
+    img {
+        max-width: 60%;
+    }
+}
+
+.social-links {
+    display: flex;
+    flex-direction: row; /* Changed to row for horizontal layout */
+    gap: 25px; /* Increased gap between buttons */
+    margin-top: 30px; /* Added more top margin */
+}
+    
+.social-btn {
+    font-size: 2rem; /* Increase icon size */
+    width: 60px; /* Adjust button width */
+    height: 60px; /* Adjust button height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Keep circular buttons */
+    background-color: #f0f0f0; /* Adjust background color if needed */
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-btn:hover {
+    transform: scale(1.1);
+}
+
+.github {
+    color: #007bff; text-decoration: underline;
+}
