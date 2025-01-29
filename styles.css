@@ -96,7 +96,7 @@ img {
     margin-bottom: 0.25rem;
 }
 
-.job-meta {
+.meta {
     color: #4b5563;
     font-size: 0.9em;
     line-height: 1.4;
@@ -118,7 +118,7 @@ img {
     content: "• ";
 }
 
-.job-date {
+.date {
     color: #4b5563;
     white-space: nowrap;
     font-size: 0.9em;
@@ -169,6 +169,6 @@ img {
     transform: scale(1.1);
 }
 
-.github {
+.external-link {
     color: #007bff; text-decoration: underline;
 }
